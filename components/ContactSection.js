@@ -9,15 +9,7 @@ export default function ContactSection(){
         <li>Availability: Open for internship or entry-level opportunities</li>
       </ul>
 
-      <form action={`mailto:ezzirahclagarto@email.com`} method="get" onSubmit={(e)=>{}}>
-        <label style={{display:'block',marginTop:12}}>Subject</label>
-        <input name="subject" type="text" aria-label="Subject" placeholder="Subject" style={{width:'100%',padding:8,borderRadius:6}} />
-        <label style={{display:'block',marginTop:12}}>Message</label>
-        <textarea name="body" rows={4} aria-label="Message" style={{width:'100%',padding:8,borderRadius:6}} placeholder={"Hi Charizze, I'm interested in"} />
-        <div style={{marginTop:8}}>
-          <button type="submit" className="btn">Send Email</button>
-        </div>
-      </form>
+      {/* Simplified contact: email address and LinkedIn link in the list above; we removed the CTA button */}
 
     </section>
   )

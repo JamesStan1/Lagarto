@@ -5,7 +5,8 @@ export const projects = [
     role: "Project Manager",
     description: "Led development of a web-based system integrating QR code validation and e-payment features. Streamlined hotel reservations, catering orders, and client transactions.",
     tech: "QR, e-Payment, Web",
-    image: "/images/projects/joanna.svg"
+    image: "/images/projects/sf.ico",
+    liveUrl: "https://joannasnook.online"
   },
   {
     title: "Delicious Discoveries",

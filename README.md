@@ -7,7 +7,12 @@ This is a simple personal portfolio built with Next.js showing Charizze C. Lagar
 - Responsive layout
 - Simple components: Header, Footer, Hero, AboutSection, Skills, ProjectsList, ContactSection
 
-Design updates:
+- Improved typography (Poppins) and spacing for better readability
+- Project cards include cover images and interactive buttons
+- Responsive navigation with mobile menu
+- Visual progress bars for percent-based skills
+	- Joanna's Nook project is linked to its live site: [https://joannasnook.online](https://joannasnook.online)
+		- The project uses a favicon-style `sf.ico` as its cover image, shown on the Projects page.
 - Improved typography (Poppins) and spacing for better readability
 - Project cards include cover images and interactive buttons
 - Responsive navigation with mobile menu
@@ -43,3 +48,5 @@ Short instructions for Vercel:
 ---
 
 If you want any design customization, color theme changes, or to add images and more project details, tell me and I’ll update the code.
+
+Note: The contact page uses a simple mailto link instead of a form for easier inbox handling.
