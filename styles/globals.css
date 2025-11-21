@@ -8,6 +8,8 @@
   --text: #0f172a;
   --shadow: 0 6px 18px rgba(15,23,42,0.06);
   --radius: 12px;
+  --profile-size: 300px; /* default profile image size */
+  --profile-size-lg: 340px; /* larger size for About */
 }
 
 *{box-sizing:border-box}
@@ -112,3 +114,20 @@ h1{font-size:22px;margin:0}
 h2{font-size:26px}
 h3{font-size:20px}
 h4{font-size:16px}
+
+/* profile image helper */
+.profile-pic{
+  width:var(--profile-size);
+  height:var(--profile-size);
+  border-radius:12px;
+  object-fit:cover;
+  object-position: center 30%;
+  display:block;
+  border: 2px solid rgba(15,23,42,0.06);
+  box-shadow: 0 4px 12px rgba(15,23,42,0.08);
+}
+.profile-pic.large{width:var(--profile-size-lg);height:var(--profile-size-lg)}
+@media (max-width:680px){
+  .profile-pic{width:110px;height:110px}
+  .profile-pic.large{width:140px;height:140px}
+}

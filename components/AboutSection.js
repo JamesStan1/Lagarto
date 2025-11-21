@@ -3,7 +3,7 @@ export default function AboutSection(){
     <section className="section container card" aria-label="About Me">
       <div className="about-grid" style={{display:'grid',gridTemplateColumns:'1fr 2fr',gap:18,alignItems:'center'}}>
         <div style={{textAlign:'center'}}>
-          <img src="/images/profile.svg" alt="Charizze profile" style={{width:140,height:140,borderRadius:16,objectFit:'cover'}}/>
+          <img src="/images/profpic.png" alt="Charizze profile" className="profile-pic large" loading="lazy" />
         </div>
         <div>
           <h3>About Me</h3>

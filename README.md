@@ -13,6 +13,7 @@ This is a simple personal portfolio built with Next.js showing Charizze C. Lagar
 - Visual progress bars for percent-based skills
 	- Joanna's Nook project is linked to its live site: [https://joannasnook.online](https://joannasnook.online)
 		- The project uses a favicon-style `sf.ico` as its cover image, shown on the Projects page.
+		- The site uses `profpic.png` as the profile picture (shown in About and Hero sections).
 - Improved typography (Poppins) and spacing for better readability
 - Project cards include cover images and interactive buttons
 - Responsive navigation with mobile menu
